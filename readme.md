@@ -79,14 +79,14 @@ ___
 ```md  
 ![Example Image](/Image.png)
 ```
-![Example Image](/Image.png)
+![Example Image](/image.png)
 
 ___  
 ## Link And Image
 ```md  
 [![Example Image](/Image.png)](https://www.google.com)
 ```
-[![Example Image](/Image.png)](https://www.google.com)
+[![Example Image](/Google.png)](https://www.google.com)
 
 ___
 ## Block of Code
