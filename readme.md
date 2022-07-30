@@ -21,7 +21,45 @@
  -->  
 ```
 ___
+## For Next Line
+> Using Double space in ending__ 
+```md
+this is line 1__  
+this is line 2
 
+or 
+
+<br/>
+``` 
+this is line 1  
+this is line 2
+
+or   
+
+this is line 1<br/>
+this is line 2 
+___
+## For Horizontal Line
+> Using triple ___
+```md
+___
+
+or
+
+<hr/>
+
+``` 
+>.
+> ___
+>.  
+>.
+><hr/>
+>.
+___
+## For Next Line
+> Using Double space in ending__ 
+
+___
 ## Paragraph  
 ```md  
 </br>
@@ -84,7 +122,7 @@ ___
 ___  
 ## Link And Image
 ```md  
-[![Example Image](/Image.png)](https://www.google.com)
+[![Example Image](/Google.png)](https://www.google.com)
 ```
 [![Example Image](/Google.png)](https://www.google.com)
 
@@ -141,3 +179,15 @@ ___
 |    Krishna 2   |  Vishwakarma |  
 |    Krishna 3   |  Vishwakarma |  
 ___
+
+## How To Convert MarkDown To Html</br>
+  
+>Open terminal in same folder
+### Step 1
+
+> npm install -g markdown-it  
+
+### Step 2
+
+> markdown-it readme.md -o readme.html
+
